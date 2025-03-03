@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Stažení hry</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f2f2f2; }
+    .container { max-width: 600px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; }
+    h1 { text-align: center; }
+    p { line-height: 1.6; }
+    .download { display: block; text-align: center; margin-top: 20px; }
+    .download a { background: #4CAF50; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Stažení hry</h1>
+    <p>
+      Vítejte na stránce pro stažení naší hry! Kliknutím na tlačítko níže si stáhnete APK soubor.
+      Před instalací aplikace se ujistěte, že máte na svém zařízení povoleno instalování aplikací z neznámých zdrojů.
+    </p>
+    <p>
+      <strong>Jak povolit instalaci z neznámých zdrojů:</strong><br>
+      1. Přejděte do Nastavení vašeho zařízení.<br>
+      2. Najděte sekci "Zabezpečení" nebo "Aplikace".<br>
+      3. Zapněte možnost "Neznámé zdroje" (umožní instalaci aplikací mimo Obchod Play).<br>
+      4. Poté si můžete aplikaci nainstalovat.
+    </p>
+    <div class="download">
+      <a href="vase_hra.apk" download>Stáhnout hru</a>
+    </div>
+  </div>
+</body>
+</html>
